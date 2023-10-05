@@ -1,0 +1,124 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading-title {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-title {
+    font-size: 48px;
+  }
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-list {
+    width: 60%;
+  }
+}
+
+.blue-container {
+  padding: 20px;
+}
+
+.primary-bg-color {
+  border-radius: 5px;
+  background-color: #0b69ff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.green-container {
+  padding: 20px;
+}
+
+.success-bg-color {
+  border-radius: 5px;
+  background-color: #2dca73;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.yellow-container {
+  padding: 20px;
+}
+
+.warning-bg-color {
+  border-radius: 5px;
+  background-color: #ffb800;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.red-container {
+  padding: 20px;
+}
+
+.danger-bg-color {
+  border-radius: 5px;
+  background-color: #ff0b37;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .message {
+    font-size: 10px;
+  }
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .ico {
+    height: 30px;
+    width: 30px;
+  }
+}
